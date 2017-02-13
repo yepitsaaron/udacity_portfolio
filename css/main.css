@@ -45,16 +45,13 @@ h3 {
     height: 100px;
 }
 
-.hero h2 {
-  color:white;
-}
-
 .hero_text {
     padding-top: 20px;
     text-align: center;
 }
 
-.contact_options {
+
+.contact_links {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -62,11 +59,11 @@ h3 {
     padding-right: 20px;
 }
 
-.contact_head {
+.contact_header {
     text-align: center;
 }
 
-.contact_option>a>img {
+.contact_link>a>img {
     transition: width 0.5s;
     width: 30px;
 }

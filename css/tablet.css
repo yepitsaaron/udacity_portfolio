@@ -8,12 +8,12 @@ h3 {
 
 .content {
     margin: 30px;
-    width: calc(100% - 60px);
+    width: calc(100% - 50px);
 }
 
-.contact_option>a>img {
-    transition: width 0.5s;
-    width: 72px;
+.contact_link>a>img {
+    transition: width 0.25s;
+    width: 70px;
 }
 
 .work {

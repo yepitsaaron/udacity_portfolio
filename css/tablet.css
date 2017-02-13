@@ -1,0 +1,31 @@
+/*
+ * CSS for portfolio site when the viewport size is > 700px
+ */
+
+h3 {
+    font-size: 20px;
+}
+
+.content {
+    margin: 30px;
+    width: calc(100% - 60px);
+}
+
+.contact_option>a>img {
+    transition: width 0.5s;
+    width: 72px;
+}
+
+.work {
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.work_logo {
+    width: 25%;
+}
+
+.work_description {
+    width: 75%;
+}

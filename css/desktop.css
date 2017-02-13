@@ -1,0 +1,20 @@
+/*
+ * CSS for portfolio site when the viewport size is > 900px
+ */
+
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 900px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.work_logo {
+    width: 25%;
+}
+
+.work_description {
+    width: 75%;
+}

@@ -1,0 +1,140 @@
+/*
+ * CSS for porfolio site
+ */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #5e5e5e;
+}
+
+body {
+    margin: 0px;
+    min-width: 320px;
+}
+
+h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container {
+    height: 100vh;
+    margin: auto;
+    background: #fff;
+}
+
+.content {
+    margin: 10px;
+    width: calc(100% - 20px);
+}
+
+.hero {
+    background-color: #0282d7;
+    width: 100%;
+    height: 100px;
+}
+
+.hero h2 {
+  color:white;
+}
+
+.hero_text {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact_options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact_head {
+    text-align: center;
+}
+
+.contact_option>a>img {
+    transition: width 0.5s;
+    width: 30px;
+}
+
+.work-history {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.project, .work_head {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.work_text {
+    width: 65%
+}
+
+.work_thumb {
+    margin-right: 10px;
+    width: 35%;
+}
+
+.work_thumb>img {
+    width: 100%;
+}
+
+.work_title {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.work_details {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+.work_1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.work_title_1 {
+    width: 50%;
+}
+
+.work_date_1 {
+    width: 50%;
+    text-align: right;
+}
+
+.work_head {
+    margin-top: 30px;
+}
+
+.work_description, .work_logo {
+    font-size: 16px;
+    width: 100%;
+}
